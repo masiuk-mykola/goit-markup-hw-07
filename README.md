@@ -1,3 +1,3 @@
-# goit-markup-hw-06
+# goit-markup-hw-07
 
-Домашнє завдання №6
+Look here: https://masiuk-mykola.github.io/goit-markup-hw-07/ Домашнє завдання №7
