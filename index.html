@@ -24,11 +24,11 @@
         <nav class="nav">
           <!-- Додав лого -->
 
-          <a class="logo logo__link" href="./index.html"> Web<span class="logo__link-accent">Studio</span></a>
+          <a class="header-logo header-logo__link" href="./index.html"> Web<span class="header-logo__link-accent">Studio</span></a>
           <!-- Додав навігацію -->
 
           <ul class="site-nav">
-            <li class="site-nav__item"><a href="./index.html" class="site-nav__link site-nav__link-current">Студия</a></li>
+            <li class="site-nav__item"><a href="./index.html" class="site-nav__link site-nav__link--current">Студия</a></li>
             <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
             <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
           </ul>
@@ -68,44 +68,44 @@
 
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button class="modal-close" data-modal-close>
+            <button class="modal-close__btn" data-modal-close>
               <svg width="11px" height="11px">
                 <use href="./images/svg/symbol-defs.svg#icon-close"></use>
               </svg>
             </button>
 
-            <form>
-              <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+            <form class="form">
+              <b class="form__title">Оставьте свои данные, мы вам перезвоним</b>
 
-              <ul class="form-list">
-                <li class="form-item">
-                  <label class="form-label" for="user-name">Имя</label>
-                  <input class="form-input" type="text" name="name" id="user-name" />
-                  <svg class="form-icon" width="18px" height="18px">
+              <ul class="form__list">
+                <li class="form__item">
+                  <label class="form__label" for="user-name">Имя</label>
+                  <input class="form__input" type="text" name="name" id="user-name" />
+                  <svg class="form__icon" width="18px" height="18px">
                     <use href="./images/svg/icons.svg#icon-user"></use>
                   </svg>
                 </li>
 
-                <li class="form-item">
-                  <label class="form-label" for="user-tel">Телефон</label>
-                  <input class="form-input" type="tel" name="tel" id="user-tel" />
-                  <svg class="form-icon" width="18px" height="18px">
+                <li class="form__item">
+                  <label class="form__label" for="user-tel">Телефон</label>
+                  <input class="form__input" type="tel" name="tel" id="user-tel" />
+                  <svg class="form__icon" width="18px" height="18px">
                     <use href="./images/svg/icons.svg#icon-tel"></use>
                   </svg>
                 </li>
 
-                <li class="form-item">
-                  <label class="form-label" for="user-email">Почта</label>
-                  <input class="form-input" type="email" name="email" id="user-email" />
-                  <svg class="form-icon" width="18px" height="18px">
+                <li class="form__item">
+                  <label class="form__label" for="user-email">Почта</label>
+                  <input class="form__input" type="email" name="email" id="user-email" />
+                  <svg class="form__icon" width="18px" height="18px">
                     <use href="./images/svg/icons.svg#icon-email"></use>
                   </svg>
                 </li>
 
-                <li class="form-item">
-                  <label class="form-label" for="user-coment">Коментарий</label>
+                <li class="form__item">
+                  <label class="form__label" for="user-coment">Коментарий</label>
                   <textarea
-                    class="form-input user-coment"
+                    class="form__input form__input--big"
                     name="coment"
                     id="user-coment"
                     placeholder="Введите текст"
@@ -113,15 +113,15 @@
                 </li>
               </ul>
 
-              <div class="form-checkbox">
-                <label class="checkbox-label">
+              <div class="form__checkbox">
+                <label class="checkbox__label">
                   <input class="checkbox" type="checkbox" name="agree" />
-                  <span class="checkbox-icon"></span>
+                  <span class="checkbox__icon"></span>
                   Соглашаюсь с рассылкой и принимаю &nbsp;<a href="#"> Условия договора</a>
                 </label>
               </div>
 
-              <button class="form-btn" type="submit">Отправить</button>
+              <button class="form__btn" type="submit">Отправить</button>
             </form>
           </div>
         </div>

@@ -1,0 +1,18 @@
+.header-logo {
+    margin-right: 93px;
+
+    color: $primary-color;
+    font-family: $logo-font, sans-serif;
+    font-size: $logo-font-size;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
+		&__link {
+            text-decoration: none;
+		}
+
+		&__link--accent {
+            color: $text-color;
+		}
+}

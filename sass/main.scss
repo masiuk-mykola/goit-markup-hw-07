@@ -1,7 +1,14 @@
 @import "./utils/modern-normalize";
 @import "./utils/minireset";
 @import "./utils/vars";
-@import "./layouts/body";
-@import "./layouts/header";
+@import "./components/body";
+@import "./components/header";
+@import "./components/header-logo";
+@import "./components/site-nav";
+@import "./components/header-contacts";
+@import "./components/hero";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/form";
 
 
