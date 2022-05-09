@@ -1,5 +1,4 @@
-.header-logo {
-  margin-right: 93px;
+.logo {
 
   color: $primary-color;
   font-family: $logo-font, sans-serif;
@@ -7,10 +6,14 @@
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-	&__link {
-          text-decoration: none;
+  text-decoration: none;
+}
+
+.logo__dark {
+  color: $text-color;
 	}
-	&__link--accent {
-          color: $text-color;
-	}
+
+
+.logo__header{
+  margin-right: 93px;
 }

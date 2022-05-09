@@ -9,6 +9,9 @@
     }
 }
 .header-contacts__link {
+    display: flex;
+    align-items: center;
+
     color: $text-color-light;
     font-size: $p-font-size;
     font-weight: 500;
@@ -23,23 +26,9 @@
     }
 
 .header-contacts__icon {
-        display: flex;
-        align-items: center;
-    }
-
-.header-contacts__icon-mail {
-    width: 16px;
-    height: 12px;
     margin-right: 10px;
 
     fill: currentColor;
     }
 
-.header-contacts__icon-smartphone {
-    width: 12px;
-    height: 16px;
-    margin-right: 10px;
-
-    fill: currentColor;
-    }
 

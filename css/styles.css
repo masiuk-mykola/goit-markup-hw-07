@@ -658,7 +658,7 @@ ul {
 
 /* *Стиль для Постійні клієнти */
 
-.clients__title {
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -669,10 +669,9 @@ ul {
   text-align: center;
 }
 
-.clients__list {
+.clients {
   display: flex;
   flex-wrap: wrap;
- 
 
 }
 
@@ -717,7 +716,7 @@ ul {
   align-items: baseline;
 }
 
-.footer__logo {
+/* .footer__logo {
   display: inline-block;
   margin-bottom: 20px;
   margin-right: 0;
@@ -729,9 +728,9 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
+} */
 
-.footer__logo--accent {
+.logo__light {
   color: var(--text-color-white);
 }
 
